@@ -1,0 +1,17 @@
+ul {
+  list-style: none;
+  padding-inline-start: 0;
+  margin: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a.selected {
+  background-color: black;
+  color: white;
+}
